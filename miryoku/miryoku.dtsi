@@ -10,6 +10,8 @@
 
 #include "miryoku.h"
 
+#include "ardux-v3.dtsi"
+
 #include <dt-bindings/zmk/mouse.h>
 
 / {
