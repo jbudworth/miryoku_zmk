@@ -27,11 +27,7 @@ macros {
         #binding-cells = <0>;
         tap-ms = <5>;
         wait-ms = <100>;
-        bindings
-            = <&kp KP_NUM &kp KP_NUM>
-            , <&macro_pause_for_release>
-            , <&kp KP_NUM &kp KP_NUM>
-            ;
+        bindings = <&kp KP_NUM &kp KP_NUM>;
     };
 };
 
