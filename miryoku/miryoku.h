@@ -20,17 +20,17 @@
   }; \
 };
 
-
-macros {
-    nudt: nudt {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        tap-ms = <5>;
-        wait-ms = <100>;
-        bindings = <&kp KP_NUM &kp KP_NUM>;
-    };
+/ { \
+    macros { \
+        nudt: nudt {
+            compatible = "zmk,behavior-macro"; \
+            #binding-cells = <0>; \
+            tap-ms = <5>; \
+            wait-ms = <100>; \
+            bindings = <&kp KP_NUM &kp KP_NUM>; \
+        }; \
+    }; \
 };
-
 
 #define U_NP &none // key is not present
 #define U_NA &none // present but not available for use
