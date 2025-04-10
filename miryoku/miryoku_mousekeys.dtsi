@@ -12,11 +12,11 @@ U_MACRO(u_macro_btn3, wait-ms = <0>; bindings = <&kp KP_ASTERISK &kp KP_N5>;)
             #binding-cells = <0>;
             wait-ms = <100>;
             bindings
-                = <&macro_tap &kp NUMLOCK>
-                , <&macro_tap &kp NUMLOCK>
+                = <&macro_tap &kp KP_NUM>
+                , <&macro_tap &kp KP_NUM>
                 , <&macro_pause_for_release>
-                , <&macro_tap &kp NUMLOCK>
-                , <&macro_tap &kp NUMLOCK>
+                , <&macro_tap &kp KP_NUM>
+                , <&macro_tap &kp KP_NUM>
                 ;
         };
     };
